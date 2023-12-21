@@ -1,0 +1,7 @@
+
+System.out.println("-----");
+String s1 = "qlskdj<qls\\kdj>lkj";
+System.out.println(s1);
+String s2 = s1.replaceAll("[<>\\\\]", "-");
+System.out.println(s2);
+
